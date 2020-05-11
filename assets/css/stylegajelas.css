@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    color: #19345E;
+}
+
+/* Header */
+.logo-awal {
+    width: 110px;
+    height: 59px;
+}
+
+.nav-link .active {
+    color: #F47522 !important;
+}
+
+.nav-link {
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    color: #19345E !important;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #F47522 !important;}
+
+.btn {
+    background-color: #F47522;
+    color: white !important;
+    border-radius: 20px;
+    width: 130px;
+    height: 38px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #F47522;
+    border: 1px solid #F47522;
+    border-radius: 20px;
+    width: 130px;
+    height: 38px;
+    font-size: 15px;
+}
+
+/* home alta */
+.home-alta {
+    padding: 160px 160px;
+    background-color: #EDF6FF;
+}
+
+.home-alta {
+    text-align: center;
+}
+
+.home-alta h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home-alta h3 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-alta h3 span {
+    color: #F47522;
+}
+
+.home-alta p {
+    font: 17px;
+    font-weight: bold;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.home-alta .btn {
+    width: 230px;
+    height: 40px;
+    background: #F47522 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+.home-alta .btn:hover {
+    background-color: white;
+    color: #F47522 !important;
+    border: 1px solid #F47522;
+    border-radius: 50px;
+    width: 230px;
+    height: 40px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+/* Jumbotron */
+
+.jumbotron1 {
+    background-image: url('../bg-people@2x.png');
+    background-size: cover;
+    color: white;
+    height: 384px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron1 .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron1::after {
+    content:'';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #19345E !important;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron1 .display-4 {
+    margin-top: 45px;
+    font-size: 30px;
+}
+
+.jumbotron1 .lead {
+    font-size: 15px;
+}
+
+/* info panel kapsul */
+.info-panel {
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 30px;
+}
+.text-kapsul h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.text-kapsul p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.text-kapsul img {
+    background-color:#F47522;
+    background-size: cover;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    align-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Transition */
+#about {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+#about span {
+    font-size: 45px;
+    text-align: center;
+    color: #19345E;
+}
+
+#about p {
+    font-size: 45px;
+    text-align: center;
+    color: #F47522;
+    font-size: 50px;
+}
+
+/* Blogs */
+
+.kepsyen h3 {
+    text-align: left;
+    font: Bold 20px/24px Roboto;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+
+}
+
+.kepsyen span {
+    text-align: left;
+    font: Regular 14px/24px Poppins;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+.kepsyen p {
+    text-align: left;
+    font: Regular 14px/24px Poppins;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+    width: 275px;
+    height: 94px;
+}
+
+.gambar-kiri{
+    width: 225px;
+    height: 265px;
+}
+
+.teams img {
+    width: 225px;
+    height: 265px;
+    position: relative;
+}
+
+.border-gambar::before{
+    border: #F47522 solid 10px;
+    top: 15px;
+    left: -10px;
+    width: 225px;
+    height: 265px;
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    
+}
+
+.border-gambar-blue {
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    width: 225px;
+    height: 265px;
+    border: #19345E solid 10px;
+    top: 15px;
+    left: -10px;
+}
+
+.img-more {
+    top: 583px;
+    left: 656px;
+    width: 20px;
+    height: 20px;
+    align-items: flex-start;
+    padding-right: 5px;
+}
+.img-more-after{
+    top: 583px;
+    left: 656px;
+    width: 20px;
+    height: 20px;
+    align-items: flex-start;
+    padding-right: 5px;}
+
+.img-more:hover {
+    content: '';
+    top: 583px;
+    left: 656px;
+    width: 20px;
+    height: 20px;
+    align-items: flex-start;
+    padding-right: 5px;
+}
+
+.teams figcaption {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.teams h3 {
+    font: Bold 20px/24px Roboto;
+    letter-spacing: 0;
+    color: #F47522;
+    opacity: 1;
+}
+
+.teams span {
+    font: Regular 15px/24px Poppins;
+    letter-spacing: 0;
+    color: #19345E;
+    opacity: 1;
+}
+.figure-img:hover .border-gambar:hover{
+    margin-top: -30px;
+    border-color: #19345E;
+    padding-bottom: -30px;
+}
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+
+    .jumbotron1 {
+        background-image: url('../bg-people@2x.png');
+        background-size: cover;
+        color: white;
+        height: 484px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .jumbotron1 .display-4 {
+        margin-top: 145px;
+        font-size: 55px;
+    }
+
+    .jumbotron1 .lead {
+        font-size: 18px;
+    }
+
+    .bd-kapsul {
+        border-right: 1px solid gray;
+    }
+    
+    .home-alta {
+        text-align: left;
+    }
+
+    footer span {
+        margin-right: 80px;
+    }
+
+    .border-gambar {
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        width: 225px;
+        height: 265px;
+        border: #F47522 solid 10px;
+        top: 15px;
+        left: -10px;
+    }
+    
+    .border-gambar-blue {
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        width: 225px;
+        height: 265px;
+        border: #19345E solid 10px;
+        top: 15px;
+        left: -10px;
+    }
+
+}
